@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inzynierka</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="has_o" translatable="false">Kennwort</string>
+    <string name="e_mail" translatable="false">E-Mail-Adresse</string>
+    <string name="zaloguj_si" translatable="false">Einloggen</string>
+    <string name="nie_masz_konta_zarejestruj_si" translatable="false">Sie haben noch keinen Account? Registrieren Sie sich</string>
+    <string name="emailRegister" translatable="false">E-Mail-Adresse</string>
+    <string name="hasloRegister" translatable="false">Kennwort</string>
+    <string name="zarejestruj_si" translatable="false">Registrieren Sie sich</string>
+    <string name="szukaj" translatable="false">Suche</string>
+    <string name="Nazwa" translatable="false">Name</string>
+    <string name="miasto" translatable="false">Stadt:</string>
+    <string name="panstwo" translatable="false">Land</string>
+    <string name="ulica" translatable="false">Straße:</string>
+    <string name="jednostkaadmin_Details" translatable="false">Verwaltungseinheit</string>
+    <string name="jednostka_administracyjna" translatable="false">Verwaltungseinheit</string>
+    <string name="przypomnij_has_o" translatable="false">Passwort vergessen</string>
+    <string name="verifyemail" translatable="false">"Bitte bestätigen Sie Ihre E-Mail-Adresse"</string>
+    <string name="wyslij_haslo" translatable="false">"Passwort senden"</string>
+    <string name="success" translatable="false">Erfolg. Überprüfen Sie die E-Mail zur Bestätigung</string>
+    <string name="passwordsend" translatable="false">Passwort an die E-Mail-Adresse gesendet</string>
+    <string name="andora" translatable="false">Andorra</string>
+    <string name="austria" translatable="false">Österreich</string>
+    <string name="belgia" translatable="false">Belgien</string>
+    <string name="grecja">Griechenland</string>
+    <string name="hiszpania" translatable="false">Spanien</string>
+    <string name="luksemburg" translatable="false">Luxemburg</string>
+    <string name="niemcy" translatable="false">Deutschland</string>
+    <string name="polska" translatable="false">Polen</string>
+    <string name="szwajcaria" translatable="false">Schweiz</string>
+    <string name="wlochy" translatable="false">Italien</string>
+    <string name="wybierzkraj" translatable="false">Wählen Sie ein Land aus</string>
+    <string name="karyntia">Kärnten</string>
+    <string name="salzburg">Salzburg</string>
+    <string name="tyrol">Tirol</string>
+    <string name="wieden">Wien</string>
+    <string name="lamassana">La Massana</string>
+    <string name="andaluzja">Andalusien</string>
+    <string name="saksonia">Sachsen</string>
+    <string name="hesja">Hessen</string>
+    <string name="berlin">Berlin</string>
+    <string name="berno">Bern</string>
+    <string name="flamandzki">Flämisch</string>
+    <string name="stolecznybrukseli">Hauptstadt Brüssel</string>
+    <string name="luksemburg1">Luxemburg</string>
+    <string name="remich">Remich</string>
+    <string name="abruzja">Abruzzen</string>
+    <string name="basilicata">Basilicata</string>
+    <string name="kalabria">Kalabrien</string>
+    <string name="kampania">Kampanien</string>
+    <string name="emiliaromania">Emilia-Romagna</string>
+    <string name="fruliwenecja">Friaul-Julisch Venetien</string>
+    <string name="dolinaaosty">Aostatal</string>
+    <string name="dolnoskaskie">Niederschlesien</string>
+    <string name="jednostkaadministracyjna">Wählen Sie eine Verwaltungseinheit aus</string>
+    <string name="lacjum">Latium</string>
+    <string name="kujawskopomorskie">Kujawien-Pommern</string>
+    <string name="liguria">Ligurien</string>
+    <string name="lodzkie">Łódź</string>
+    <string name="lombardia">Lombardei</string>
+    <string name="lubelskie">Lublin</string>
+    <string name="malopolskie">Kleinpolen</string>
+    <string name="marche">Marken</string>
+    <string name="mazowieckie">Masowien</string>
+    <string name="molise">Molise</string>
+    <string name="piemont">Piemont</string>
+    <string name="podkarpackie">Karpatenvorland</string>
+    <string name="podlaskie">Podlachien</string>
+    <string name="pomorskie">Pommern</string>
+    <string name="sardynia">Sardinien</string>
+    <string name="slaskie">Schlesien</string>
+    <string name="zachodniopomorskie">Westpommern</string>
+    <string name="wysparodos">Rhodes Island</string>
+    <string name="wyspakreta">Insel Kreta</string>
+    <string name="wielkopolskie">Großpolen</string>
+    <string name="wenecja">Venetien</string>
+    <string name="umbria">Umbrien</string>
+    <string name="trydent">Trentino-Südtirol</string>
+    <string name="toskania">Toskana</string>
+    <string name="sycylia">Autonome Region Sizilien</string>
+    <string name="swietokrzyskie">Heiligkreuz</string>
+    <string name="apulia">Apulien</string>
+    <string name="Noselection" translatable="false">Es wurde keine Auswahl getroffen</string>
+</resources>

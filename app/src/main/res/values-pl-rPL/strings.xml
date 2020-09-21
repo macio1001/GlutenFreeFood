@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inzynierka</string>
+    <string name="Nazwa" translatable="false">Nazwa</string>
+    <string name="abruzja" translatable="false">Abruzja</string>
+    <string name="andaluzja" translatable="false">Andaluzja</string>
+    <string name="andora" translatable="false">Andora</string>
+    <string name="austria" translatable="false">Austria</string>
+    <string name="basilicata" translatable="false">Basilicata</string>
+    <string name="belgia" translatable="false">Belgia</string>
+    <string name="berlin" translatable="false">Berlin</string>
+    <string name="berno" translatable="false">Berno</string>
+    <string name="dolinaaosty">Dolina Aosty</string>
+    <string name="e_mail" translatable="false">E-mail</string>
+    <string name="emailRegister" translatable="false">E-mail</string>
+    <string name="emiliaromania" translatable="false">Emilia-Romagna</string>
+    <string name="flamandzki" translatable="false">Flamandzki</string>
+    <string name="fruliwenecja" translatable="false">Fruli-Wenecja Julijska</string>
+    <string name="grecja" translatable="false">Grecja</string>
+    <string name="has_o" translatable="false">Hasło</string>
+    <string name="hasloRegister" translatable="false">Hasło</string>
+    <string name="hesja" translatable="false">Hesja</string>
+    <string name="hiszpania" translatable="false">Hiszpania</string>
+    <string name="jednostka_administracyjna" translatable="false">Jednostka administracyjna</string>
+    <string name="jednostkaadmin_Details" translatable="false">Jednostka administracyjna</string>
+    <string name="kalabria" translatable="false">Kalabria</string>
+    <string name="kampania" translatable="false">Kampania</string>
+    <string name="karyntia" translatable="false">Karyntia</string>
+    <string name="lamassana" translatable="false">La Massana</string>
+    <string name="luksemburg" translatable="false">Luksemburg</string>
+    <string name="luksemburg1" translatable="false">Luksemburg</string>
+    <string name="niemcy" translatable="false">Niemcy</string>
+    <string name="panstwo" translatable="false">Państwo</string>
+    <string name="nie_masz_konta_zarejestruj_si" translatable="false">Nie masz konta? Zarejestruj się</string>
+    <string name="passwordsend" translatable="false">Hasło wyslane na adres e-mail</string>
+    <string name="polska" translatable="false">Polska</string>
+    <string name="przypomnij_has_o" translatable="false">Przypomnij hasło</string>
+    <string name="remich" translatable="false">Remich</string>
+    <string name="saksonia" translatable="false">Saksonia</string>
+    <string name="salzburg" translatable="false">Salzburg</string>
+    <string name="stolecznybrukseli" translatable="false">Stołeczny Brukseli</string>
+    <string name="success" translatable="false">Sukces. Sprawdź pocztę e-mail w celu weryfikacji</string>
+    <string name="szukaj" translatable="false">Szukaj</string>
+    <string name="szwajcaria" translatable="false">Szwajcaria</string>
+    <string name="tyrol" translatable="false">Tyrol</string>
+    <string name="verifyemail" translatable="false">Sprawdź swój adres e-mail</string>
+    <string name="wieden" translatable="false">Wiedeń</string>
+    <string name="wlochy" translatable="false">Wlochy</string>
+    <string name="wybierzkraj" translatable="false">Wybierz kraj</string>
+    <string name="wyslij_haslo" translatable="false">Wyślij haśło</string>
+    <string name="zaloguj_si" translatable="false">Zaloguj się</string>
+    <string name="zarejestruj_si" translatable="false">Zarejestruj się</string>
+    <string name="kujawskopomorskie">Kujawsko-pomorskie</string>
+    <string name="lacjum">Lacjum</string>
+    <string name="liguria">Liguria</string>
+    <string name="lodzkie">Łódzkie</string>
+    <string name="lombardia">Lombardia</string>
+    <string name="lubelskie">Lubuskie</string>
+    <string name="malopolskie">Małopolskie</string>
+    <string name="marche">Marche</string>
+    <string name="mazowieckie">Mazowieckie</string>
+    <string name="molise">Molise</string>
+    <string name="miasto" translatable="false">Miasto:</string>
+    <string name="piemont">Piemont</string>
+    <string name="podkarpackie">Podkarpackie</string>
+    <string name="podlaskie">Podlaskie</string>
+    <string name="pomorskie">Pomorskie</string>
+    <string name="sardynia">Sardynia</string>
+    <string name="dolnoskaskie">Dolnośląskie</string>
+    <string name="jednostkaadministracyjna">Wybierz jednostkę administracyjną</string>
+    <string name="slaskie">Śląskie</string>
+    <string name="zachodniopomorskie">Zachodniopomorskie</string>
+    <string name="wysparodos">Wyspa Rodos</string>
+    <string name="wyspakreta">Wyspa Kreta</string>
+    <string name="wielkopolskie">Wielkopolskie</string>
+    <string name="wenecja">Wenecja Euganejska</string>
+    <string name="umbria">Umbria</string>
+    <string name="ulica" translatable="false">Ulica:</string>
+    <string name="trydent">Trydent-Górna Adyga</string>
+    <string name="toskania">Toskania</string>
+    <string name="sycylia">Sycylia</string>
+    <string name="swietokrzyskie">Świętokrzyskie</string>
+    <string name="apulia">Apulia</string>
+    <string name="Noselection">Nie został dokonany wybór</string>
+</resources>

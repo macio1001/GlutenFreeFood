@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name" translatable="false">Inzynierka</string>
+    <string name="name">Nazwa</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="pref_title_sync_frequency" translatable="false" />
+    <string name="pref_title_system_sync_settings" translatable="false" />
+    <string name="pref_title_vibrate" translatable="false" />
+    <string name="pref_title_ringtone" translatable="false" />
+    <string name="pref_title_new_message_notifications" translatable="false" />
+    <string name="pref_description_social_recommendations" translatable="false" />
+    <string name="pref_title_social_recommendations" translatable="false" />
+    <string name="pref_default_display_name" translatable="false" />
+    <string name="pref_title_display_name" translatable="false" />
+    <string name="pref_title_add_friends_to_messages" translatable="false" />
+    <string name="pref_header_general" translatable="false" />
+    <string name="pref_header_data_sync" translatable="false" />
+    <string name="pref_header_notifications" translatable="false" />
+    <string name="LoginLogo" translatable="false">TODO</string>
+    <string name="nie_masz_konta_zarejestruj_si">You do not have an account? Register</string>
+    <string name="RegisterLogo" translatable="false">TODO</string>
+    <string name="emailRegister">E-mail</string>
+    <string name="szukaj">Search</string>
+    <string name="Nazwa">Name</string>
+    <string name="panstwo">Country</string>
+    <string name="jednostka_administracyjna">Administrative Unit</string>
+    <string name="LogoDetails" translatable="false">TODO</string>
+    <string name="LogoSzukaj" translatable="false">TODO</string>
+    <string name="ulica" translatable="false">Street:</string>
+    <string name="miasto">City:</string>
+    <string name="jednostkaadmin_Details">Administrative Unit</string>
+    <string name="kod_pocztowy_prowincja" translatable="false">Kod pocztowy/Prowincja</string>
+    <string name="wyslij_haslo">Send password</string>
+    <string name="ForgotLogo" translatable="false">TODO</string>
+    <string name="e_mail">E-mail</string>
+    <string name="zarejestruj_si">Register</string>
+    <string name="przypomnij_has_o">Remind password</string>
+    <string name="has_o">Password</string>
+    <string name="hasloRegister">Password</string>
+    <string name="zaloguj_si">Sign In</string>
+    <string name="success" translatable="false">Success.Please check your email for verification</string>
+    <string name="passwordsend">Password sent to the email address</string>
+    <string name="andora">Andora</string>
+    <string name="austria">Austria</string>
+    <string name="belgia">Belgium</string>
+    <string name="grecja">Greece</string>
+    <string name="hiszpania">Spain</string>
+    <string name="luksemburg">Luksembourg</string>
+    <string name="niemcy">Germany</string>
+    <string name="polska">Poland</string>
+    <string name="szwajcaria">Switzerland</string>
+    <string name="wlochy">Italy</string>
+    <string name="wybierzkraj" translatable="false">Choose a country</string>
+    <string name="dolnoskaskie" translatable="false">Lower Silesian</string>
+    <string name="kujawskopomorskie" translatable="false">Kuyavian-Pomeranian</string>
+    <string name="lubelskie" translatable="false">Lublin</string>
+    <string name="mazowieckie" translatable="false">Masovian</string>
+    <string name="malopolskie" translatable="false">Lesser Poland</string>
+    <string name="podkarpackie" translatable="false">Subcarpathian</string>
+    <string name="podlaskie" translatable="false">Podlaskie</string>
+    <string name="pomorskie" translatable="false">Pomeranian</string>
+    <string name="wielkopolskie" translatable="false">Greater Poland</string>
+    <string name="zachodniopomorskie" translatable="false">West Pomeranian</string>
+    <string name="lodzkie" translatable="false">Łódż</string>
+    <string name="slaskie" translatable="false">Silesian</string>
+    <string name="swietokrzyskie" translatable="false">Świętokrzyskie</string>
+    <string name="karyntia" translatable="false">Carinthia</string>
+    <string name="salzburg" translatable="false">Salzburg</string>
+    <string name="tyrol" translatable="false">Tirol</string>
+    <string name="wieden" translatable="false">Vienna</string>
+    <string name="lamassana" translatable="false">La Massana</string>
+    <string name="andaluzja" translatable="false">Andalusia</string>
+    <string name="saksonia" translatable="false">Saxony</string>
+    <string name="hesja" translatable="false">Hesse</string>
+    <string name="berlin" translatable="false">Berlin</string>
+    <string name="berno" translatable="false">Bern</string>
+    <string name="flamandzki" translatable="false">Flemisch</string>
+    <string name="luksemburg1" translatable="false">Luksembourg</string>
+    <string name="remich" translatable="false">Remich</string>
+    <string name="abruzja" translatable="false">Abruzzo</string>
+    <string name="basilicata" translatable="false">Basilicata</string>
+    <string name="kalabria" translatable="false">Calabria</string>
+    <string name="kampania" translatable="false">Campania</string>
+    <string name="emiliaromania" translatable="false">Emilia-Romania</string>
+    <string name="fruliwenecja" translatable="false">Fruli Venezia Giulia</string>
+    <string name="lacjum" translatable="false">Lazio</string>
+    <string name="liguria" translatable="false">Liguria</string>
+    <string name="lombardia" translatable="false">Lombardy</string>
+    <string name="marche" translatable="false">Marche</string>
+    <string name="molise" translatable="false">Molise</string>
+    <string name="piemont" translatable="false">Piedmont</string>
+    <string name="apulia" translatable="false">Apulia</string>
+    <string name="sardynia" translatable="false">Sardinia</string>
+    <string name="sycylia" translatable="false">Sicily</string>
+    <string name="toskania" translatable="false">Tuscany</string>
+    <string name="trydent" translatable="false">Trentino-Alto Adige</string>
+    <string name="umbria" translatable="false">Umbria</string>
+    <string name="dolinaaosty" translatable="false">Aosta Valley</string>
+    <string name="wenecja" translatable="false">Veneto</string>
+    <string name="nameobiekt">TextView</string>
+    <string name="cityobiekt">TextView</string>
+    <string name="nazwa">Nazwa</string>
+    <string name="adres">Adres:</string>
+    <string name="stolecznybrukseli" translatable="false">Capital Brussels</string>
+    <string name="verifyemail" translatable="false">Please verify your email</string>
+    <string name="wysparodos" translatable="false">Rhodes Island</string>
+    <string name="wyspakreta" translatable="false">Island of Crete</string>
+    <string name="jednostkaadministracyjna" translatable="false">Select an administrative unit</string>
+    <string name="google">Google</string>
+    <string name="Noselection" translatable="false">No selection has been made</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="todocom">TODO</string>
+    <string name="todoocena">TODO</string>
+    <string name="nickName">TextView</string>
+    <string name="CommentText">TextView</string>
+    <string name="AddButton">TODO</string>
+    <string name="komentarz">Komentarz</string>
+</resources>
