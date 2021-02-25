@@ -83,4 +83,8 @@
     <string name="swietokrzyskie">Sainte-Croix</string>
     <string name="apulia">Pouilles</string>
     <string name="Noselection">Aucune sélection n\'a été effectuée</string>
+    <string name="lubuskie">Lubuskie</string>
+    <string name="ratingrestaurant">" Vous n'avez pas donné de note!"</string>
+    <string name="use_as_a_quest">Utiliser en tant qu invité</string>
+    <string name="accept_the_privacy_policy" translatable="false">Accepter la politique de confidentialité</string>
 </resources>

@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
     private int RC_SIGN_IN = 123;
     private int permissions=0;
     private GoogleSignInClient googleSignInClient;
+    Boolean gosc=false;
 
     @Override
     protected void onStart() {
@@ -102,64 +103,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-        GoogleSignInOptions googleSignInOptions=new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestEmail()
-                .requestIdToken(getString(R.string.default_web_client_id))
-                .build();
-
-        googleSignInClient=GoogleSignIn.getClient(this,googleSignInOptions);
-
-        logingoogle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                signIn();
-            }
-        });
-    }
-
-    private void signIn(){
-        Intent signInIntent=googleSignInClient.getSignInIntent();
-        startActivityForResult(signInIntent,0);
-    }
-
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 0) {
-            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            try {
-                GoogleSignInAccount account = task.getResult(ApiException.class);
-                if (account != null) {
-                    firebaseAuthWithGoogle(account);
-                } else{
-                    Log.w("AUTH", "Account is NULL");
-                    Toast.makeText(MainActivity.this, "Sign-in failed, try again later.", Toast.LENGTH_LONG).show();
-                }
-            } catch (ApiException e) {
-                Log.w("AUTH", "Google sign in failed", e);
-                Toast.makeText(MainActivity.this, "Sign-in failed, try again later.", Toast.LENGTH_LONG).show();
-            }
-        }
-    }
-
-    private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
-        Log.d("AUTH", "firebaseAuthWithGoogle:" + acct.getId());
-        AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
-        firebaseAuth.signInWithCredential(credential)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            Log.d("AUTH", "signInWithCredential:success");
-                            startActivity(new Intent(MainActivity.this, Main3Activity.class));
-                            Toast.makeText(MainActivity.this, "Sign-in successful!", Toast.LENGTH_LONG).show();
-                        } else {
-                            Log.w("AUTH", "signInWithCredential:failure", task.getException());
-                            Toast.makeText(MainActivity.this, "Sign-in failed, try again later.", Toast.LENGTH_LONG).show();
-                        }
-                    }
-                });
     }
 
 
@@ -169,5 +112,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void Przypomnij(View view){
          startActivity(new Intent(this, Main6Activity.class));
+    }
+
+    public void Gosc(View view) {
+         startActivity(new Intent(this,Main3Activity.class));
     }
 }

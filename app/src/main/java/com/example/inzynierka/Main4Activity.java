@@ -39,7 +39,7 @@ public class Main4Activity extends AppCompatActivity {
     private ObiektAdapter obiektAdapter;
     private List<Obiekt> obiektList;
 
-    FirebaseAuth firebaseAuth;
+
 
 
     @Override
@@ -50,6 +50,7 @@ public class Main4Activity extends AppCompatActivity {
         Intent mintent=getIntent();
         int country1 = mintent.getIntExtra("Państwo", 0);
         int region1=mintent.getIntExtra("Region",0);
+        boolean gosc=mintent.getBooleanExtra("Region",false);
         obiektList=new ArrayList<>();
         obiektAdapter=new ObiektAdapter(this,obiektList);
         obiektView=(RecyclerView) findViewById(R.id.ObiektView);
@@ -112,8 +113,10 @@ public class Main4Activity extends AppCompatActivity {
                 showPolskaLodzkie();
             }else if(country1==8 && region1==11){
                 showPolskaSlaskie();
-            }else if(country1==8 && region1==12){
+            }else if(country1==8 && region1==12) {
                 showPolskaSwietokrzyskie();
+            }else if(country1==8 && region1==13){
+                showPolskaLubuskie();
             }else if(country1==9 && region1==0){
                 showSzwajcariaBerno();
             }else if(country1==10 && region1==0){
@@ -146,7 +149,7 @@ public class Main4Activity extends AppCompatActivity {
                 showWlochySardynia();
             }else if(country1==10 && region1==14){
                 showWLochySycylia();
-            }else if(country1==11 && region1==15){
+            }else if(country1==10 && region1==15){
                 showWlochyToskania();
             }else if(country1==10 && region1==16){
                 showWlochyTrydent();
@@ -158,6 +161,29 @@ public class Main4Activity extends AppCompatActivity {
                 showWlochyWenecja();
             }
     }
+
+    private void showPolskaLubuskie() {
+        firebaseFirestore.collection("Polska").whereEqualTo("Województwo","Lubuskie").addSnapshotListener(new EventListener<QuerySnapshot>() {
+            @Override
+            public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
+                if(e!=null){
+                    Log.d(TAG,"Error:"+e.getMessage());
+
+                }
+                else{
+                    for(DocumentChange doc: queryDocumentSnapshots.getDocumentChanges()){
+                        if(doc.getType()== DocumentChange.Type.ADDED){
+                            Obiekt obiekt=doc.getDocument().toObject(Obiekt.class);
+                            obiektList.add(obiekt);
+
+                            obiektAdapter.notifyDataSetChanged();
+                        }
+                    }
+                }
+            }
+        });
+    }
+
     public void showAndoraLaMassana(){
         firebaseFirestore.collection("Andora").whereEqualTo("Parafia","La Massana").addSnapshotListener(new EventListener<QuerySnapshot>() {
             @Override
@@ -789,7 +815,7 @@ public class Main4Activity extends AppCompatActivity {
         });
     }
     public void showWlochyBasilicata(){
-        firebaseFirestore.collection("Wlochy").whereEqualTo("Region","Basilicata").addSnapshotListener(new EventListener<QuerySnapshot>() {
+        firebaseFirestore.collection("Włochy").whereEqualTo("Region","Basilicata").addSnapshotListener(new EventListener<QuerySnapshot>() {
             @Override
             public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
                 if(e!=null){
@@ -1041,7 +1067,7 @@ public class Main4Activity extends AppCompatActivity {
         });
     }
     public void showWlochySardynia(){
-        firebaseFirestore.collection("Włochy").whereEqualTo("Region","Sardynia").addSnapshotListener(new EventListener<QuerySnapshot>() {
+        firebaseFirestore.collection("Włochy").whereEqualTo("Region","Sardegna").addSnapshotListener(new EventListener<QuerySnapshot>() {
             @Override
             public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
                 if(e!=null){
@@ -1146,7 +1172,7 @@ public class Main4Activity extends AppCompatActivity {
         });
     }
     public void showWlochyAosta(){
-        firebaseFirestore.collection("Włochy").whereEqualTo("Region","Vall D'Aosta").addSnapshotListener(new EventListener<QuerySnapshot>() {
+        firebaseFirestore.collection("Włochy").whereEqualTo("Region","Valle D'Aosta").addSnapshotListener(new EventListener<QuerySnapshot>() {
             @Override
             public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
                 if(e!=null){

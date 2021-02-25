@@ -55,7 +55,7 @@
     <string name="liguria">Liguria</string>
     <string name="lodzkie">Łódzkie</string>
     <string name="lombardia">Lombardia</string>
-    <string name="lubelskie">Lubuskie</string>
+    <string name="lubelskie">Lubelskie</string>
     <string name="malopolskie">Małopolskie</string>
     <string name="marche">Marche</string>
     <string name="mazowieckie">Mazowieckie</string>
@@ -82,4 +82,8 @@
     <string name="swietokrzyskie">Świętokrzyskie</string>
     <string name="apulia">Apulia</string>
     <string name="Noselection">Nie został dokonany wybór</string>
+    <string name="lubuskie">Lubuskie</string>
+    <string name="ratingrestaurant">Nie daleś oceny!</string>
+    <string name="use_as_a_quest">Korzystaj jako gość</string>
+    <string name="accept_the_privacy_policy">Akcepruje politykę prywatności</string>
 </resources>

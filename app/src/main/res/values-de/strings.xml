@@ -83,4 +83,8 @@
     <string name="swietokrzyskie">Heiligkreuz</string>
     <string name="apulia">Apulien</string>
     <string name="Noselection" translatable="false">Es wurde keine Auswahl getroffen</string>
+    <string name="lubuskie">Lubuskie</string>
+    <string name="ratingrestaurant">" Sie haben keine Note vergeben!"</string>
+    <string name="use_as_a_quest">Als Gast verwenden</string>
+    <string name="accept_the_privacy_policy" translatable="false">Akzeptieren Sie die Datenschutzbestimmungen</string>
 </resources>

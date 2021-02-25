@@ -87,7 +87,7 @@
     <string name="lombardia" translatable="false">Lombardy</string>
     <string name="marche" translatable="false">Marche</string>
     <string name="molise" translatable="false">Molise</string>
-    <string name="piemont" translatable="false">Piedmont</string>
+    <string name="piemont" translatable="false">Piemont</string>
     <string name="apulia" translatable="false">Apulia</string>
     <string name="sardynia" translatable="false">Sardinia</string>
     <string name="sycylia" translatable="false">Sicily</string>
@@ -114,4 +114,9 @@
     <string name="CommentText">TextView</string>
     <string name="AddButton">TODO</string>
     <string name="komentarz">Komentarz</string>
+    <string name="lubuskie" translatable="false">Lubuskie</string>
+    <string name="ratingrestaurant" translatable="false">" You did not give a grade!"</string>
+    <string name="use_as_a_quest" translatable="false">Use as a guest</string>
+    <string name="accept_the_privacy_policy" translatable="false">Accept the privacy policy</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>
