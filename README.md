@@ -1,10 +1,10 @@
 # Gluten Free Food Application
 
-##Table of contents
-* [Indroduction] (#Indroduction)
-* [Technologies] (#Technologies)
-* [Setup] (#Setup)
-* [Sources] (#Sources)
+## Table of contents
+* [Indroduction](#indroduction)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Sources](#sources)
 
 ## Indroduction
 
